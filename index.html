@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="style" href="style.css" />
+  </head>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100vh;
+    }
+    .menu {
+    }
+    .menu a:hover {
+      background-color: #131313;
+      color: white;
+    }
+    .menu a {
+      background-color: #eaebe6;
+      color: #131313;
+      text-align: center;
+      float: left;
+      padding: 16px 32px;
+      text-decoration: none;
+      font-size: 17px;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+    #navigation {
+      display: flex;
+      width: fill;
+      align-items: center;
+      justify-content: space-between;
+      padding: 32px 64px;
+    }
+    .signUp a {
+      margin-left: 32px;
+      background-color: #fff469;
+      color: #131313;
+      text-align: center;
+      float: left;
+      padding: 16px 32px;
+      text-decoration: none;
+      font-size: 17px;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+    .signUp a:hover {
+      background-color: #131313;
+      color: #eaebe6;
+    }
+    #content {
+      padding: 0px 64px;
+      line-height: 96px;
+      letter-spacing: -13px;
+    }
+    #CTA {
+      padding: 64px 64px;
+      position: relative;
+      width: fit-content;
+    }
+  </style>
+  <body>
+    <div id="navigation">
+      <div
+        style="padding: 16px; background-color: #fff469; border-radius: 50px"
+      >
+        <a style="color: #131313"> Voices.ai </a>
+      </div>
+      <!-- <div>
+        <div class="menu"><a>How-to</a></div>
+        <div class="menu"><a>Pricinng</a></div>
+        <div class="menu"><a>About</a></div>
+      </div> -->
+      <div style="display: flex">
+        <div class="menu">
+          <a>How-to</a>
+          <a>Pricing</a>
+          <a>About</a>
+        </div>
+        <div class="signUp">
+          <a>Sign Up</a>
+        </div>
+      </div>
+    </div>
+    <div id="content">
+      <a style="font-size: 180px">
+        Don't get bored <br />
+        reading. Make it <br />
+        a podcast</a
+      >
+    </div>
+    <div id="CTA">
+      <a style="color: #a4a4a4; align-self: baseline">your email address</a>
+      <a
+        style="
+          background-color: #131313;
+          padding: 16px 32px;
+          color: white;
+          border-radius: 50px;
+          margin-left: 240px;
+        "
+      >
+        Get Started</a
+      >
+      <hr style="margin-top: 40px" />
+    </div>
+  </body>
+</html>
