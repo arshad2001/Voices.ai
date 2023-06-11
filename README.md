@@ -1,4 +1,4 @@
-![image](https://github.com/arshad2001/Voices.ai/assets/62998839/0dc8da50-b23d-4022-956c-02a57f5069b4)
+![image](https://github.com/arshad2001/Freecycle/assets/62998839/2b54a928-da5c-4b8d-8850-2ab00105bcc9)
 
 # Voices.ai
 
