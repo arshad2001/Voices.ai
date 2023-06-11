@@ -16,6 +16,15 @@
     />
   </head>
   <style>
+    #asset1 {
+      background-image: url("Asset\ 1.jpg"); /*adding a background image*/
+      background-size: 700px; /*stretching the image to the size of the cover*/
+      background-repeat: no-repeat;
+      background-position: right 64px bottom 64px;
+      bac
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+      overflow-y: hidden; /* Hide horizontal scrollbar */
+    }
     body {
       font-family: sans-serif;
       display: flex;
@@ -69,16 +78,18 @@
       letter-spacing: -5px;
     }
     #CTA {
-      padding: 64px 64px;
       position: relative;
-      width: fit-content;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 64px 64px;
     }
   </style>
-  <body>
+  <body id="asset1" style="background-color: #f8f6f5">
     <div id="navigation">
       <div style="display: flex; flex-direction: row; justify-content: center">
         <div>
-          <img src="VoicesAi.jpg" style="scale: 0.5" alt="" />
+          <img src="VoicesAi.png" style="scale: 0.8" alt="" />
         </div>
         <a
           style="
@@ -87,10 +98,9 @@
             font-size: 32px;
             align-self: center;
             font-family: 'Urbanist', sans-serif;
-            margin-left: -10px;
           "
         >
-          Voices.ai
+          Sounds.ai
         </a>
       </div>
       <!-- <div>
@@ -117,19 +127,21 @@
       >
     </div>
     <div id="CTA">
-      <a style="color: #a4a4a4; align-self: baseline">your email address</a>
-      <a
-        style="
-          background-color: #131313;
-          padding: 16px 32px;
-          color: white;
-          border-radius: 50px;
-          margin-left: 240px;
-        "
-      >
-        Get Started</a
-      >
-      <hr style="margin-top: 40px" />
+      <div style="width: max-content">
+        <a style="color: #a4a4a4; align-self: baseline">your email address</a>
+        <a
+          style="
+            background-color: #131313;
+            padding: 16px 32px;
+            color: white;
+            border-radius: 50px;
+            margin-left: 240px;
+          "
+        >
+          Get Started</a
+        >
+        <hr style="margin-top: 40px" />
+      </div>
     </div>
   </body>
 </html>
